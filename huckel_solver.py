@@ -12,7 +12,7 @@ from collections import Counter
 
 # Returns list of eigenvalues for any square matrix
 def get_evals(A: np.ndarray):
-    evals, evects = np.linalg.eig(A)
+    evals, evecs = np.linalg.eig(A)
     # Rounding evals to avoid numerical instability
     evals_rounded = [round(eval, 5) for eval in evals]
     return evals_rounded
