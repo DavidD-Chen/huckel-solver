@@ -8,14 +8,14 @@ The second line contains an integer *N*. This gives an *N* by *N* Huckel matrix.
 
 ## Example inputs
 
-Linear polyene of length 4<br>
+Linear polyene of length 4<br>:
 0<br>
 4<br>
 
-Cyclic polyene of size 6<br>
+Cyclic polyene of size 6<br>:
 1<br>
 6<br>
 
-Buckminsterfullerene<br>
+Buckminsterfullerene<br>:
 2<br>
 60<br>
